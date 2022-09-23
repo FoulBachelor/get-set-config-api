@@ -1,0 +1,11 @@
+_id: env_0eb9159bc610466d88d24acef92ead27
+type: Environment
+parentId: env_2bc63aa46a50f212b28b61d52fb02fdfad5b2a43
+modified: 1663934747832
+created: 1663934733878
+name: GET/SET CONFIG
+data: {}
+dataPropertyOrder: {}
+color: "#ad27b0"
+isPrivate: false
+metaSortKey: 1663934733878

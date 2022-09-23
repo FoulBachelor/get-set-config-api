@@ -1,0 +1,30 @@
+_id: req_7c01dcbe0ecc4abcba98c6c2ec4091b1
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663932395321
+created: 1663932201830
+url: https://mage2.stubbe.dev/clerk/getconfig
+name: Mage2 GETCONFIG
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "1"
+    id: pair_52193013d1ec4783829d3d5f6e0b047c
+  - name: private_key
+    value: "2"
+    id: pair_d631a055347f48dc9091291992706f64
+  - name: scope_id
+    value: "1"
+    id: pair_29072eac90ed42bfba0fa3e6eb889477
+headers: []
+authentication: {}
+metaSortKey: -1663932201830
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

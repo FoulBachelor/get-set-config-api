@@ -1,0 +1,82 @@
+_id: req_4d8cde4ec6754c6e94ad71c2f51559dd
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663934801954
+created: 1663933695580
+url: https://presta16.stubbe.dev/module/clerk/setconfig
+name: Presta16 SETCONFIG
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"clerk_language": "auto",
+    	"clerk_import_url": "http:\/\/presta16.stubbe.dev",
+    	"clerk_datasync_use_real_time_updates": "1",
+    	"clerk_datasync_include_pages": "0",
+    	"clerk_datasync_page_fields": "",
+    	"clerk_datasync_include_out_of_stock_products": "0",
+    	"clerk_datasync_collect_emails": "0",
+    	"clerk_datasync_collect_baskets": "0",
+    	"clerk_datasync_sync_subscribers": "0",
+    	"clerk_datasync_fields": "testst",
+    	"clerk_datasync_disable_order_synchronization": "0",
+    	"clerk_datasync_include_variant_references": "0",
+    	"clerk_datasync_product_features": "0",
+    	"clerk_search_enabled": "0",
+    	"clerk_search_categories": "0",
+    	"clerk_search_number_categories": "1",
+    	"clerk_search_number_pages": "1",
+    	"clerk_search_pages_type": "CMS Page",
+    	"clerk_search_template": "search-page",
+    	"clerk_faceted_navigation_enabled": "0",
+    	"clerk_facets_attributes": "[]",
+    	"clerk_facets_design": "",
+    	"clerk_facets_position": "[]",
+    	"clerk_facets_title": "[]",
+    	"clerk_livesearch_enabled": "0",
+    	"clerk_livesearch_categories": "0",
+    	"clerk_livesearch_template": "live-search",
+    	"clerk_livesearch_selector": ".search_query",
+    	"clerk_livesearch_form_selector": "#search_widget > form",
+    	"clerk_livesearch_number_suggestions": "1",
+    	"clerk_livesearch_number_categories": "1",
+    	"clerk_livesearch_number_pages": "1",
+    	"clerk_livesearch_pages_type": "CMS Page",
+    	"clerk_livesearch_dropdown_position": "left",
+    	"clerk_powerstep_enabled": "0",
+    	"clerk_powerstep_type": "page",
+    	"clerk_powerstep_templates": "power-step-others-also-bought,power-step-visitor-complementary,power-step-popular",
+    	"clerk_exit_intent_enabled": "0",
+    	"clerk_exit_intent_template": "exit-intent",
+    	"clerk_category_enabled": "1",
+    	"clerk_category_template": "category-page-popular",
+    	"clerk_cart_enabled": "0",
+    	"clerk_cart_template": "cart-others-also-bought",
+    	"clerk_product_enabled": "0",
+    	"clerk_product_template": "product-page-others-also-bought,product-page-alternatives",
+    	"clerk_logging_enabled": "1",
+    	"clerk_logging_level": "all",
+    	"clerk_logging_to": "file"
+    }
+parameters:
+  - name: private_key
+    value: "2"
+    id: pair_e9a2be3d2ceb43c2b8a55d36db82524a
+  - name: key
+    value: "1"
+    id: pair_038a2eee79a0473ebac2416b5d50b8bf
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_adf2847e5ea44c2aafbe45783b25f7d9
+authentication: {}
+metaSortKey: -1663930228405.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

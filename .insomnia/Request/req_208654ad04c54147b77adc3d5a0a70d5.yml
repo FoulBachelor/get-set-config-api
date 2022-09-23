@@ -1,0 +1,66 @@
+_id: req_208654ad04c54147b77adc3d5a0a70d5
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663932152353
+created: 1663928490985
+url: https://mage1.stubbe.dev/clerk/api/getconfig
+name: Mage1 GETCONFIG
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_f2ddcc0162a54ed7ac57e6895c9e277d
+      name: key
+      value: "1"
+      description: ""
+    - id: pair_66d06fd0af9e40568ca57000ebb91379
+      name: private_key
+      value: "2"
+      description: ""
+    - id: pair_582f5d9cce2d4f5e98ff63ee51bb7416
+      name: limit
+      value: "100"
+      description: ""
+    - id: pair_e70154957fb842ebacf0dd61fa5bec49
+      name: store
+      value: "1"
+      description: ""
+parameters:
+  - id: pair_481249ecebf44c158d51c7a5a814d156
+    name: key
+    value: "1"
+    description: ""
+  - id: pair_e781adb8025a413699f229051226f8d6
+    name: private_key
+    value: "2"
+    description: ""
+  - id: pair_c47d5d163d43481d9f8ca267862c3c32
+    name: store
+    value: "1"
+    description: ""
+  - id: pair_ab998d6294e54e55aadebaabf3e8361e
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_494d36eebb1f44908d146d99077aea20
+    name: limit
+    value: "1"
+    description: ""
+headers:
+  - id: pair_5d13af9994b342d8be63f05481ddad1d
+    name: clerk-private-key
+    value: "2"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_72243cfa855049768392093e2dc1dcf4
+authentication: {}
+metaSortKey: -1663928280862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

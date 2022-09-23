@@ -1,0 +1,91 @@
+_id: req_a518f6a72d964856b60fe0343d3ab2b3
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663934258352
+created: 1663933418161
+url: https://wp.stubbe.dev/wp-json/clerk/setconfig
+name: WooCommerce SETCONFIG
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"lang": "auto",
+    	"import_url": "https:\/\/wp.stubbe.dev",
+    	"customer_sync_enabled": "0",
+    	"customer_sync_customer_fields": "",
+    	"realtime_updates": "0",
+    	"include_pages": "0",
+    	"page_additional_fields": "",
+    	"collect_emails": "0",
+    	"collect_emails_signup_message": "",
+    	"collect_baskets": "0",
+    	"additional_fields": "",
+    	"data_sync_image_size": "medium",
+    	"livesearch_enabled": "1",
+    	"livesearch_include_suggestions": "1",
+    	"livesearch_suggestions": "1",
+    	"livesearch_include_categories": "1",
+    	"livesearch_categories": "1",
+    	"livesearch_include_pages": "1",
+    	"livesearch_pages": "1",
+    	"livesearch_pages_type": "All",
+    	"livesearch_dropdown_position": "Left",
+    	"livesearch_field_selector": ".search-field",
+    	"livesearch_form_selector": ".slamm-product-search",
+    	"livesearch_template": "live-search-test",
+    	"search_enabled": "1",
+    	"search_page": "163",
+    	"search_include_categories": "1",
+    	"search_categories": "1",
+    	"search_include_pages": "1",
+    	"search_pages": "1",
+    	"search_pages_type": "All",
+    	"search_template": "search-page",
+    	"search_no_results_text": "Ingen resultater",
+    	"search_load_more_button": "Visa mer",
+    	"faceted_navigation_enabled": "1",
+    	"faceted_navigation": "[{\"attribute\":\"created_at\",\"title\":\"\",\"position\":\"1\",\"checked\":false},{\"attribute\":\"on_sale\",\"title\":\"\",\"position\":\"2\",\"checked\":false},{\"attribute\":\"all_images\",\"title\":\"\",\"position\":\"3\",\"checked\":false},{\"attribute\":\"price\",\"title\":\"\",\"position\":\"4\",\"checked\":false},{\"attribute\":\"categories\",\"title\":\"\",\"position\":\"5\",\"checked\":false},{\"attribute\":\"stock_status\",\"title\":\"\",\"position\":\"1\",\"checked\":false},{\"attribute\":\"backorders\",\"title\":\"\",\"position\":\"2\",\"checked\":false},{\"attribute\":\"stock\",\"title\":\"\",\"position\":\"3\",\"checked\":false},{\"attribute\":\"managing_stock\",\"title\":\"\",\"position\":\"4\",\"checked\":false},{\"attribute\":\"current_url\",\"title\":\"\",\"position\":\"1\",\"checked\":false},{\"attribute\":\"obj\",\"title\":\"\",\"position\":\"2\",\"checked\":false}]",
+    	"faceted_navigation_design": "",
+    	"powerstep_enabled": "1",
+    	"powerstep_type": "page",
+    	"powerstep_page": "156",
+    	"powerstep_templates": "power-step-others-also-bought,power-step-visitor-complementary,power-step-popular,power-step-popular-on-sale",
+    	"powerstep_excl_duplicates": "1",
+    	"exit_intent_enabled": "1",
+    	"exit_intent_template": "exit_intent",
+    	"category_enabled": "1",
+    	"category_content": "category-page-popular",
+    	"clerk_category_shortcode": "[clerk_category_id]",
+    	"product_enabled": "1",
+    	"product_content": "product-page-alternatives",
+    	"product_excl_duplicates": "1",
+    	"clerk_product_shortcode": "[clerk_product_id]",
+    	"cart_enabled": "1",
+    	"cart_content": "cart-others-also-bought",
+    	"clerk_cart_shortcode": "[clerk_cart_ids]",
+    	"log_enabled": "1",
+    	"log_level": "Error + Warn",
+    	"log_to": "my.clerk.io"
+    }
+parameters:
+  - name: private_key
+    value: "2"
+    id: pair_e40b1ec440cc4022966b3ed5e6f7dd6d
+  - name: key
+    value: "1"
+    id: pair_66d6f3b823b14287b717f60306ca5684
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b30e700f60f2470798d4a42193d3931b
+authentication: {}
+metaSortKey: -1663932214276.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

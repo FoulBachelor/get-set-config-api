@@ -1,0 +1,27 @@
+_id: req_013ceae32356491fa3f95f4765abff18
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663932340393
+created: 1663932190274
+url: https://presta17.stubbe.dev/en/module/clerk/getconfig
+name: Presta17 GETCONFIG
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: private_key
+    value: "2"
+    id: pair_7028ba2f2b634d0d92edd10f16ee6fa9
+  - name: key
+    value: "1"
+    id: pair_bb55449104114e14a4679b688be1ec2a
+headers: []
+authentication: {}
+metaSortKey: -1663932190274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

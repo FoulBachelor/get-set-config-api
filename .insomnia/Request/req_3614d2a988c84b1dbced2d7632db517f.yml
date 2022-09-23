@@ -1,0 +1,32 @@
+_id: req_3614d2a988c84b1dbced2d7632db517f
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663933456888
+created: 1663932226723
+url: https://wp.stubbe.dev/wp-json/clerk/getconfig
+name: WooCommerce GETCONFIG
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - name: private_key
+    value: "2"
+    id: pair_e40b1ec440cc4022966b3ed5e6f7dd6d
+  - name: key
+    value: "1"
+    id: pair_66d6f3b823b14287b717f60306ca5684
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc2776d05d0347419a7217b23125f378
+authentication: {}
+metaSortKey: -1663932226723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

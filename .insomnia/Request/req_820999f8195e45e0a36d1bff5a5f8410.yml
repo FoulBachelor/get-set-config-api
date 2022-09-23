@@ -1,0 +1,104 @@
+_id: req_820999f8195e45e0a36d1bff5a5f8410
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663934006467
+created: 1663933711612
+url: https://mage1.stubbe.dev/clerk/api/setconfig
+name: Mage1 SETCONFIG
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"store": "1",
+    	"CLERK_ACTIVE": "1",
+    	"LANGUAGE": "auto_english",
+    	"PATH_INCLUDE_PAGES": "1",
+    	"PAGES_ADDITIONAL_FIELDS": "",
+    	"PRODUCT_SYNCHRONIZATION_REAL_TIME_ENABLED": "0",
+    	"PRODUCT_SYNCHRONIZATION_COLLECT_EMAILS": "1",
+    	"PRODUCT_SYNCHRONIZATION_COLLECT_BASKETS": "1",
+    	"PRODUCT_SYNCHRONIZATION_ADDITIONAL_FIELDS": "accessories_size,apparel_type,bag_luggage_type,bed_bath_type,color,decor_type,electronic_type,fit,format,frame_style,gender,home_decor_type,jewelry_type,length,manufacturer,material,necklace_length,occasion,shoe_size",
+    	"PRODUCT_INCLUDE_OUT_OF_STOCK_PRODUCTS": "0",
+    	"PRODUCT_SYNCHRONIZATION_VISIBILITY": "0",
+    	"PRODUCT_SYNCHRONIZATION_DISABLE_ORDER_SYNCHRONIZATION": "0",
+    	"PRODUCT_SYNCHRONIZATION_ENABLE_ORDER_RETURN_SYNCHRONIZATION": "0",
+    	"PRODUCT_SYNCHRONIZATION_IMAGE_WIDTH": "",
+    	"PRODUCT_SYNCHRONIZATION_IMAGE_HEIGHT": "",
+    	"PRODUCT_SYNCHRONIZATION_IMPORT_URL": "",
+    	"SEARCH_ENABLED": "1",
+    	"SEARCH_INCLUDE_CATEGORIES": "0",
+    	"SEARCH_CATEGORIES": "1",
+    	"SEARCH_PAGES": "1",
+    	"SEARCH_PAGES_TYPE": "cms page",
+    	"SEARCH_TEMPLATE": "search-page",
+    	"SEARCH_NO_RESULTS_TEXT": "No results found",
+    	"SEARCH_LOAD_MORE_TEXT": "Load more results",
+    	"FACETED_SEARCH_ENABLED": "1",
+    	"FACETED_SEARCH_DESIGN": "stubbe",
+    	"FACETED_SEARCH_ATTRIBUTES": "",
+    	"FACETED_SEARCH_MULTISELECT_ATTRIBUTES": "",
+    	"FACETED_SEARCH_TITLES": "[{\"label\":\"\"},{\"sort_order\":\"0\"}]",
+    	"LIVESEARCH_ENABLED": "1",
+    	"LIVESEARCH_INCLUDE_CATEGORIES": "1",
+    	"LIVESEARCH_CATEGORIES": "5",
+    	"LIVESEARCH_SUGGESTIONS": "5",
+    	"LIVESEARCH_PAGES": "3",
+    	"LIVESEARCH_PAGES_TYPE": "cms page",
+    	"LIVESEARCH_DROPDOWN_POSITION": "right",
+    	"LIVESEARCH_TEMPLATE": "live-search",
+    	"LIVESEARCH_INPUT_SELECTOR": "#search",
+    	"POWERSTEP_ENABLED": "0",
+    	"POWERSTEP_TYPE": "popup",
+    	"POWERSTEP_TEMPLATES": "power-step-others-also-bought",
+    	"EXIT_INTENT_ENABLED": "0",
+    	"EXIT_INTENT_TEMPLATE": "exit-inner",
+    	"CATEGORY_ENABLED": "0",
+    	"CATEGORY_CONTENT": "category-page-popular",
+    	"PRODUCT_ENABLED": "1",
+    	"PRODUCT_CONTENT": "product-page-alternatives,product-page-others-also-bought",
+    	"CART_ENABLED": "0",
+    	"CART_CONTENT": "cart-others-also-bought",
+    	"LOG_ENABLED": "1",
+    	"LOG_LEVEL": "warn",
+    	"LOG_TO": "collect"
+    }
+parameters:
+  - id: pair_481249ecebf44c158d51c7a5a814d156
+    name: key
+    value: "1"
+    description: ""
+  - id: pair_e781adb8025a413699f229051226f8d6
+    name: private_key
+    value: "2"
+    description: ""
+  - id: pair_c47d5d163d43481d9f8ca267862c3c32
+    name: store
+    value: "1"
+    description: ""
+  - id: pair_ab998d6294e54e55aadebaabf3e8361e
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_494d36eebb1f44908d146d99077aea20
+    name: limit
+    value: "1"
+    description: ""
+headers:
+  - id: pair_5d13af9994b342d8be63f05481ddad1d
+    name: clerk-private-key
+    value: "2"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_72243cfa855049768392093e2dc1dcf4
+authentication: {}
+metaSortKey: -1663928280812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
