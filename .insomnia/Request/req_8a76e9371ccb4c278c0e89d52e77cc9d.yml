@@ -1,0 +1,30 @@
+_id: req_8a76e9371ccb4c278c0e89d52e77cc9d
+type: Request
+parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
+modified: 1663941352514
+created: 1663941189033
+url: https://mage2.stubbe.dev/clerk/version
+name: Mage2 VERSION
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: key
+    value: "1"
+    id: pair_52193013d1ec4783829d3d5f6e0b047c
+  - name: private_key
+    value: "2"
+    id: pair_d631a055347f48dc9091291992706f64
+  - name: scope_id
+    value: "0"
+    id: pair_29072eac90ed42bfba0fa3e6eb889477
+headers: []
+authentication: {}
+metaSortKey: -1663932198941
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

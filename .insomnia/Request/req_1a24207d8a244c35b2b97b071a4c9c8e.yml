@@ -1,7 +1,7 @@
 _id: req_1a24207d8a244c35b2b97b071a4c9c8e
 type: Request
 parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
-modified: 1663933816384
+modified: 1663942404571
 created: 1663933571418
 url: https://mage2.stubbe.dev/clerk/setconfig
 name: Mage2 SETCONFIG
@@ -12,10 +12,10 @@ body:
   text: >-
     {
     	"storeID": 1,
-    	"wepsiteID": 1,
+    	"wepsiteID": 0,
     	"LANGUAGE": "danish",
     	"PATH_INCLUDE_PAGES": "0",
-    	"PAGES_ADDITIONAL_FIELDS": "test4",
+    	"PAGES_ADDITIONAL_FIELDS": "slammy",
     	"PRODUCT_SYNCHRONIZATION_REAL_TIME_ENABLED": "0",
     	"PRODUCT_SYNCHRONIZATION_COLLECT_EMAILS": "0",
     	"PRODUCT_SYNCHRONIZATION_ADDITIONAL_FIELDS": "test1,test2,test3",
@@ -69,7 +69,7 @@ parameters:
     value: "2"
     id: pair_d631a055347f48dc9091291992706f64
   - name: scope_id
-    value: "1"
+    value: "0"
     id: pair_29072eac90ed42bfba0fa3e6eb889477
 headers:
   - name: Content-Type

@@ -1,10 +1,10 @@
-_id: req_766b2b2f17b344a6a4fd0c178ba5fdb0
+_id: req_e9c4fb17984c45bdb2b2a9c00e2bf842
 type: Request
 parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
-modified: 1663939985819
-created: 1663933680843
-url: https://presta17.stubbe.dev/en/module/clerk/setconfig
-name: Presta17 SETCONFIG
+modified: 1663939802752
+created: 1663938905556
+url: https://presta16.stubbe.dev/module/clerk/setconfig
+name: Presta16 SETCONFIG LANG_EXPLICIT
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: >-
     {
     	"clerk_language": "auto",
-    	"clerk_import_url": "http:\/\/presta17.stubbe.dev",
+    	"clerk_import_url": "http:\/\/presta16.stubbe.dev",
     	"clerk_datasync_use_real_time_updates": "1",
     	"clerk_datasync_include_pages": "0",
     	"clerk_datasync_page_fields": "",
@@ -29,7 +29,7 @@ body:
     	"clerk_search_number_categories": "1",
     	"clerk_search_number_pages": "1",
     	"clerk_search_pages_type": "CMS Page",
-    	"clerk_search_template": "search-page",
+    	"clerk_search_template": "search-page-not",
     	"clerk_faceted_navigation_enabled": "0",
     	"clerk_facets_attributes": "[]",
     	"clerk_facets_design": "",
@@ -47,7 +47,7 @@ body:
     	"clerk_livesearch_dropdown_position": "left",
     	"clerk_powerstep_enabled": "0",
     	"clerk_powerstep_type": "page",
-    	"clerk_powerstep_templates": "powercock",
+    	"clerk_powerstep_templates": "power-step-others-also-bought,power-step-visitor-complementary,power-step-popular",
     	"clerk_exit_intent_enabled": "0",
     	"clerk_exit_intent_template": "exit-intent",
     	"clerk_category_enabled": "1",
@@ -63,16 +63,26 @@ body:
 parameters:
   - name: private_key
     value: "2"
-    id: pair_7028ba2f2b634d0d92edd10f16ee6fa9
+    id: pair_e9a2be3d2ceb43c2b8a55d36db82524a
   - name: key
     value: "1"
-    id: pair_bb55449104114e14a4679b688be1ec2a
+    id: pair_038a2eee79a0473ebac2416b5d50b8bf
+  - id: pair_63b7ff3df46c49339cdc988642320a7a
+    name: clerk_shop_select
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_62189a534545440aaf6a536e3e7f279d
+    name: clerk_language_select
+    value: "1"
+    description: ""
+    disabled: true
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_0717c6e692054c709be14e8c2f42d4f9
+    id: pair_adf2847e5ea44c2aafbe45783b25f7d9
 authentication: {}
-metaSortKey: -1663932183111.5
+metaSortKey: -1663929254633.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
