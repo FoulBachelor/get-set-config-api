@@ -1,7 +1,7 @@
 _id: req_1a24207d8a244c35b2b97b071a4c9c8e
 type: Request
 parentId: wrk_d8e7fc5002af439596cb4460ea531e9b
-modified: 1663942404571
+modified: 1664180182782
 created: 1663933571418
 url: https://mage2.stubbe.dev/clerk/setconfig
 name: Mage2 SETCONFIG
@@ -15,7 +15,7 @@ body:
     	"wepsiteID": 0,
     	"LANGUAGE": "danish",
     	"PATH_INCLUDE_PAGES": "0",
-    	"PAGES_ADDITIONAL_FIELDS": "slammy",
+    	"PAGES_ADDITIONAL_FIELDS": "susadasda pple",
     	"PRODUCT_SYNCHRONIZATION_REAL_TIME_ENABLED": "0",
     	"PRODUCT_SYNCHRONIZATION_COLLECT_EMAILS": "0",
     	"PRODUCT_SYNCHRONIZATION_ADDITIONAL_FIELDS": "test1,test2,test3",
@@ -23,7 +23,7 @@ body:
     	"PRODUCT_SYNCHRONIZATION_VISIBILITY": "2",
     	"PRODUCT_SYNCHRONIZATION_DISABLE_ORDER_SYNCHRONIZATION": "0",
     	"CUSTOMER_SYNCHRONIZATION_ENABLED": "1",
-    	"SEARCH_ENABLED": "1",
+    	"SEARCH_ENABLED": "0",
     	"SEARCH_INCLUDE_CATEGORIES": "1",
     	"SEARCH_CATEGORIES": "5",
     	"SEARCH_PAGES": "10",
@@ -35,7 +35,6 @@ body:
     	"FACETED_SEARCH_DESIGN": "test",
     	"FACETED_SEARCH_ATTRIBUTES": "",
     	"FACETED_SEARCH_MULTISELECT_ATTRIBUTES": "",
-    	"FACETED_SEARCH_TITLES": "[{\"label\":\"\"},{\"sort_order\":\"0\"}]",
     	"LIVESEARCH_ENABLED": "1",
     	"LIVESEARCH_INCLUDE_CATEGORIES": "1",
     	"LIVESEARCH_CATEGORIES": "0",
@@ -75,6 +74,10 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_77e14d546907459282731802edc88b5b
+  - id: pair_57b3ed4ff40746db891ef16740b4359f
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
 authentication: {}
 metaSortKey: -1663932196052
 isPrivate: false
